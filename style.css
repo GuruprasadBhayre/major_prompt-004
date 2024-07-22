@@ -1,0 +1,790 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+html,body{
+height: 100%;
+width: 100%;
+background-color: #EAEAEA;
+font-family: "Inter", sans-serif;
+font-style: normal;
+}
+.navigationbar{
+    width: 100%;
+    height: 12%;
+    background-color: #FFFFFF;
+    position: relative;
+    display: flex;
+}
+.flipkartlogo{
+    height: 100%;
+    width: 160px;
+    margin: 0px 0px 0px 30px;
+    padding: 15px 0px 0px 0px;
+}
+.navigationbar > input{
+    height: 43px;
+    width: 500px;
+    position: absolute;
+    left: 18%;
+    top: 18%;
+    font-size: 18px;
+    padding: 0px 0px 0px 45px;
+    background-color: #F0F5FF;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.ri-search-line{
+    font-size: 20px;
+    position: absolute;
+    left: 18.7%;
+    top: 30%;
+    z-index: 111;
+    color: #757575;
+}
+.LCBatributs{
+    height: 100%;
+    width: 500px;
+    position: absolute;
+    right: 2%;
+    top: 0%;
+    display: flex;
+    justify-content: space-around;
+    padding: 13px 0px 0px 0px;
+}
+.login{
+    height: 43px;
+    width: 110px;
+    border-radius: 5px;
+    padding: 9px 0px 0px 10px;
+    font-size: 18px;
+    position: relative;
+}
+.login:hover{
+    background-color: #2A55E6;
+    color: #FFFFFF;
+}
+.login > a:hover{
+    color: #FFFFFF;
+
+}
+.login > a{
+    text-decoration: none;
+    color: #141414;
+    font-weight: 500;    
+}
+.cart{
+    height: 43px;
+    width: 110px;
+    border-radius: 5px;
+    padding: 10px 0px 0px 25px;
+    font-size: 18px;
+    position: relative;   
+}
+.cart > a{
+    text-decoration: none;
+    color: #141414;
+    font-weight: 500;
+}
+.Becomeaseller{
+    height: 43px;
+    width: 180px;
+    padding: 10px 0px 0px 10px;
+    font-size: 18px;
+    position: relative;
+}
+.Becomeaseller > a{
+    text-decoration: none;
+    color: #141414;
+    font-weight: 500;
+}
+.more{
+    height: 43px;
+    width: 18px;
+    padding: 8px 0px 0px 0px;
+    margin: 0px 0px 0px 30px;
+    font-size: 22px;
+    position: relative;
+}
+.typesofitems{
+    height: 23%;
+    width: 96%;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 2%;
+    top: 2%;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+.grocery{
+    height: 134px;
+    width: 120px;
+    background-color: #FFFFFF;
+    padding: 18px 0px 0px 25px;
+}
+.grocery > img {
+    height: 70px;
+    width: 70px;
+}
+.grocery > h6{
+    font-size: 15px;
+    font-weight: 550;
+    padding: 0px 0px 0px 5px;
+}
+.mobile{
+    height: 134px;
+    width: 120px;
+    padding: 18px 0px 0px 25px;
+}
+.mobile > img {
+    height: 70px;
+    width: 70px;
+}
+.mobile > h6{
+    font-size: 15px;
+    font-weight: 550;
+    padding: 0px 0px 0px 8px;
+}
+.fashion{
+    height: 134px;
+    width: 120px;
+    padding: 18px 0px 0px 25px;
+}
+.fashion > img {
+    height: 70px;
+    width: 70px;
+}
+.fashion > h6{
+    font-size: 15px;
+    font-weight: 550;
+    padding: 0px 0px 0px 8px;
+}
+.electronic{
+    height: 134px;
+    width: 120px;
+    padding: 18px 0px 0px 25px;
+}
+.electronic > img {
+    height: 70px;
+    width: 70px;
+}
+.electronic > h6{
+    font-size: 15px;
+    font-weight: 550;
+    padding: 0px 0px 0px 0px;
+}
+.homefurniture{
+    height: 134px;
+    width: 120px;
+    padding: 18px 0px 0px 25px;
+}
+.homefurniture > img {
+    height: 70px;
+    width: 70px;
+}
+.homefurniture > h6{
+    font-size: 15px;
+    font-weight: 550;
+    padding: 0px 0px 0px 0px;
+}
+.appliances{
+    height: 134px;
+    width: 120px;
+    padding: 18px 0px 0px 25px;
+}
+.appliances > img {
+    height: 70px;
+    width: 70px;
+}
+.appliances > h6{
+    font-size: 15px;
+    font-weight: 550;
+    padding: 0px 0px 0px 0px;
+}
+.travel{
+    height: 134px;
+    width: 120px;
+    padding: 0px 0px 0px 25px;
+}
+.travel > img {
+    height: 70px;
+    width: 70px;
+}
+.travel > h6{
+    font-size: 15px;
+    font-weight: 550;
+    padding: 16px 0px 0px 10px;
+}
+.beautytoys{
+    height: 134px;
+    width: 120px;
+    padding: 18px 0px 0px 20px;
+}
+.beautytoys > img {
+    height: 70px;
+    width: 70px;
+}
+.beautytoys > h6{
+    font-size: 15px;
+    font-weight: 550;
+    padding: 0px 0px 0px 0px;
+}
+.twowheelars{
+    height: 134px;
+    width: 120px;
+    padding: 15px 0px 0px 30px;
+}
+.twowheelars > img {
+    height: 70px;
+    width: 70px;
+}
+.twowheelars > h6{
+    font-size: 15px;
+    font-weight: 550;
+}
+.avertisediv{
+    height: 35%;
+    width: 96%;
+    position: absolute;
+    left: 2%;
+    top: 5%;
+    position: relative;
+}
+.avertisediv > img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.topsellingsmartphone{
+    height: 50%;
+    width: 75%;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 23%;
+    top: 8%;
+    position: relative;
+}
+.topsellingsmartphone > img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.flyingcodediv{
+    height: 50%;
+    width: 20%;
+    position: absolute;
+    left: 2%;
+    top: 78%;
+}
+.flyingcodediv > img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.topdealsonfasion{
+    height: 50%;
+    width: 96%;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 2%;
+    top: 10%;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+.topdealsonfasion > h6{
+   position: absolute;
+   top: 8%;
+   left: 2%;
+   font-size: 22px;
+
+}
+.bratopjeans{
+    height: 72%;
+    width: 15%;
+    border: 1px solid#070707;
+    position: relative;
+    margin-bottom: 15px;
+}
+.bratopjeans > p{
+    position: absolute;
+    top: 81%;
+    left: 15%;
+    font-size: 13px;
+}
+.bratopjeans > h6{
+    position: absolute;
+    top: 90%;
+    left: 5%;
+    font-size: 13px;
+    font-weight: 550;
+}
+.bratopjeans > img{
+    height: 78%;
+    width: 75%;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    top: 41%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.bratopjeans > img:hover{
+    height: 80%;
+    width: 76%;
+
+}
+
+
+.adidaspuma{
+    height: 72%;
+    width: 15%;
+    border: 1px solid#070707;
+    position: relative;
+    margin-bottom: 15px;
+}
+.adidaspuma > p{
+    position: absolute;
+    top: 81%;
+    left: 15%;
+    font-size: 13px;
+}
+.adidaspuma > h6{
+    position: absolute;
+    top: 90%;
+    left: 30%;
+    font-size: 13px;
+    font-weight: 550;
+}
+.adidaspuma > img{
+    height: 78%;
+    width: 75%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 41%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.adidaspuma > img:hover{
+    height: 80%;
+    width: 76%;
+
+}
+.topstrouser{
+    height: 72%;
+    width: 15%;
+    border: 1px solid#070707;
+    position: relative;
+    margin-bottom: 15px;
+}
+.topstrouser > img{
+    height: 78%;
+    width: 75%;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    top: 41%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.topstrouser > img:hover{
+    height: 80%;
+    width: 76%;
+
+}
+.topstrouser > p{
+    position: absolute;
+    top: 81%;
+    left: 15%;
+    font-size: 12px;
+}
+.topstrouser > h6{
+    position: absolute;
+    top: 90%;
+    left: 16%;
+    font-size: 13px;
+    font-weight: 550;
+}
+.superofferonkurta{
+    height: 72%;
+    width: 15%;
+    border: 1px solid#070707;
+    position: relative;
+    margin-bottom: 15px;
+}
+.superofferonkurta > img{
+    height: 80%;
+    width: 75%;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    top: 41%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.superofferonkurta > img:hover{
+    height: 81%;
+    width: 76%;
+
+}
+.superofferonkurta > p{
+    position: absolute;
+    top: 82%;
+    left: 15%;
+    font-size: 12px;
+}
+.superofferonkurta > h6{
+    position: absolute;
+    top: 90%;
+    left: 25%;
+    font-size: 13px;
+    font-weight: 550;
+}
+
+
+
+
+.walletsbelt{
+    height: 72%;
+    width: 15%;
+    border: 1px solid#070707;
+    position: relative;
+    margin-bottom: 15px;
+}
+.walletsbelt > img{
+    height: 77%;
+    width: 75%;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    top: 41%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.walletsbelt > img:hover{
+    height: 80%;
+    width: 76%;
+
+}
+.walletsbelt > p{
+    position: absolute;
+    top: 82%;
+    left: 30%;
+    font-size: 12px;
+}
+.walletsbelt > h6{
+    position: absolute;
+    top: 90%;
+    left: 35%;
+    font-size: 13px;
+    font-weight: 550;
+}
+
+
+
+
+
+.nikeskechers{
+    height: 72%;
+    width: 15%;
+    border: 1px solid#070707;
+    position: relative;
+    margin-bottom: 15px;
+}
+.nikeskechers > img{
+    height: 78%;
+    width: 75%;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    top: 41%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.nikeskechers > img:hover{
+    height: 80%;
+    width: 76%;
+
+}
+.nikeskechers > p{
+    position: absolute;
+    top: 82%;
+    left: 30%;
+    font-size: 12px;
+}
+.nikeskechers > h6{
+    position: absolute;
+    top: 90%;
+    left: 35%;
+    font-size: 13px;
+    font-weight: 550;
+}
+
+
+
+
+
+
+
+
+.bestfasionforyou{
+    height: 50%;
+    width: 96%;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 2%;
+    top: 12%;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+.bestfasionforyou > h6{
+   position: absolute;
+   top: 8%;
+   left: 2%;
+   font-size: 22px;
+
+}
+
+
+
+.metronautadrenex{
+    height: 72%;
+    width: 15%;
+    border: 1px solid#070707;
+    position: relative;
+    margin-bottom: 15px;
+}
+.metronautadrenex > p{
+    position: absolute;
+    top: 81%;
+    left: 15%;
+    font-size: 13px;
+}
+.metronautadrenex > h6{
+    position: absolute;
+    top: 90%;
+    left: 25%;
+    font-size: 13px;
+    font-weight: 550;
+}
+.metronautadrenex > img{
+    height: 78%;
+    width: 75%;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    top: 41%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.metronautadrenex > img:hover{
+    height: 80%;
+    width: 76%;
+
+}
+
+
+.mobilepouches{
+    height: 72%;
+    width: 15%;
+    border: 1px solid#070707;
+    position: relative;
+    margin-bottom: 15px;
+}
+.mobilepouches > p{
+    position: absolute;
+    top: 81%;
+    left: 15%;
+    font-size: 13px;
+}
+.mobilepouches > h6{
+    position: absolute;
+    top: 90%;
+    left: 30%;
+    font-size: 13px;
+    font-weight: 550;
+}
+.mobilepouches > img{
+    height: 80%;
+    width: 75%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 41%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.mobilepouches > img:hover{
+    height: 80%;
+    width: 76%;
+
+}
+
+
+
+
+
+.Brandedkurtas{
+    height: 72%;
+    width: 15%;
+    border: 1px solid#070707;
+    position: relative;
+    margin-bottom: 15px;
+}
+.Brandedkurtas > img{
+    height: 78%;
+    width: 75%;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    top: 41%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.Brandedkurtas > img:hover{
+    height: 80%;
+    width: 76%;
+
+}
+.Brandedkurtas > p{
+    position: absolute;
+    top: 81%;
+    left: 15%;
+    font-size: 12px;
+}
+.Brandedkurtas > h6{
+    position: absolute;
+    top: 90%;
+    left: 16%;
+    font-size: 13px;
+    font-weight: 550;
+}
+
+
+
+
+
+
+.flyingmachine{
+    height: 72%;
+    width: 15%;
+    border: 1px solid#070707;
+    position: relative;
+    margin-bottom: 15px;
+}
+.flyingmachine > img{
+    height: 80%;
+    width: 75%;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    top: 41%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.flyingmachine > img:hover{
+    height: 81%;
+    width: 76%;
+
+}
+.flyingmachine > p{
+    position: absolute;
+    top: 82%;
+    left: 15%;
+    font-size: 12px;
+}
+.flyingmachine > h6{
+    position: absolute;
+    top: 90%;
+    left: 25%;
+    font-size: 13px;
+    font-weight: 550;
+}
+
+
+
+
+.dhamakaoffers{
+    height: 72%;
+    width: 15%;
+    border: 1px solid#070707;
+    position: relative;
+    margin-bottom: 15px;
+}
+.dhamakaoffers > img{
+    height: 77%;
+    width: 75%;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    top: 41%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.dhamakaoffers > img:hover{
+    height: 80%;
+    width: 76%;
+
+}
+.dhamakaoffers > p{
+    position: absolute;
+    top: 82%;
+    left: 30%;
+    font-size: 12px;
+}
+.dhamakaoffers > h6{
+    position: absolute;
+    top: 90%;
+    left: 35%;
+    font-size: 13px;
+    font-weight: 550;
+}
+
+
+
+
+
+.sabsebadibeals{
+    height: 72%;
+    width: 15%;
+    border: 1px solid#070707;
+    position: relative;
+    margin-bottom: 15px;
+}
+.sabsebadibeals > img{
+    height: 78%;
+    width: 75%;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    top: 41%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.sabsebadibeals > img:hover{
+    height: 80%;
+    width: 76%;
+
+}
+.sabsebadibeals > p{
+    position: absolute;
+    top: 82%;
+    left: 30%;
+    font-size: 12px;
+}
+.sabsebadibeals > h6{
+    position: absolute;
+    top: 90%;
+    left: 35%;
+    font-size: 13px;
+    font-weight: 550;
+}
